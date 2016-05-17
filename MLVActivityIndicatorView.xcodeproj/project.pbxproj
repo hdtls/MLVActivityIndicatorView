@@ -13,6 +13,8 @@
 		B1F565351CEAC4DF00CCA76A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F565331CEAC4DF00CCA76A /* Main.storyboard */; };
 		B1F565371CEAC4DF00CCA76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F565361CEAC4DF00CCA76A /* Assets.xcassets */; };
 		B1F5653A1CEAC4DF00CCA76A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F565381CEAC4DF00CCA76A /* LaunchScreen.storyboard */; };
+		B1F565451CEAC4EE00CCA76A /* MLVActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F565421CEAC4EE00CCA76A /* MLVActivityIndicatorView.m */; };
+		B1F565461CEAC4EE00CCA76A /* MLVGradientCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F565441CEAC4EE00CCA76A /* MLVGradientCircleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B1F565361CEAC4DF00CCA76A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1F565391CEAC4DF00CCA76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F5653B1CEAC4DF00CCA76A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F565411CEAC4EE00CCA76A /* MLVActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLVActivityIndicatorView.h; sourceTree = "<group>"; };
+		B1F565421CEAC4EE00CCA76A /* MLVActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLVActivityIndicatorView.m; sourceTree = "<group>"; };
+		B1F565431CEAC4EE00CCA76A /* MLVGradientCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLVGradientCircleLayer.h; sourceTree = "<group>"; };
+		B1F565441CEAC4EE00CCA76A /* MLVGradientCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLVGradientCircleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				B1F5652E1CEAC4DF00CCA76A /* AppDelegate.m */,
 				B1F565301CEAC4DF00CCA76A /* ViewController.h */,
 				B1F565311CEAC4DF00CCA76A /* ViewController.m */,
+				B1F565471CEAC4FD00CCA76A /* MLVActivityIndicatorView */,
 				B1F565331CEAC4DF00CCA76A /* Main.storyboard */,
 				B1F565361CEAC4DF00CCA76A /* Assets.xcassets */,
 				B1F565381CEAC4DF00CCA76A /* LaunchScreen.storyboard */,
@@ -77,6 +84,17 @@
 				B1F5652B1CEAC4DF00CCA76A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1F565471CEAC4FD00CCA76A /* MLVActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				B1F565411CEAC4EE00CCA76A /* MLVActivityIndicatorView.h */,
+				B1F565421CEAC4EE00CCA76A /* MLVActivityIndicatorView.m */,
+				B1F565431CEAC4EE00CCA76A /* MLVGradientCircleLayer.h */,
+				B1F565441CEAC4EE00CCA76A /* MLVGradientCircleLayer.m */,
+			);
+			name = MLVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1F565321CEAC4DF00CCA76A /* ViewController.m in Sources */,
+				B1F565461CEAC4EE00CCA76A /* MLVGradientCircleLayer.m in Sources */,
+				B1F565451CEAC4EE00CCA76A /* MLVActivityIndicatorView.m in Sources */,
 				B1F5652F1CEAC4DF00CCA76A /* AppDelegate.m in Sources */,
 				B1F5652C1CEAC4DF00CCA76A /* main.m in Sources */,
 			);

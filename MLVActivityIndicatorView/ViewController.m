@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "MLVActivityIndicatorView.h"
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet MLVActivityIndicatorView *activityIndicatorView;
 @end
 
 @implementation ViewController
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.activityIndicatorView startAnimating];
 }
 
 - (void)didReceiveMemoryWarning {
